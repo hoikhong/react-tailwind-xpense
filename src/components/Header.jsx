@@ -48,7 +48,7 @@ function Header() {
         >
           {btnText}
         </button>
-        {/* mobile nav trigger btn - hidden pn desktop */}
+        {/* mobile nav trigger btn - hidden on desktop */}
         <button className="lg:hidden" onClick={() => setMobileNav(!mobileNav)}>
           {mobileNav ? (
             <HiOutlineX className="text-3xl text-accent" />
