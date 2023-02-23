@@ -9,7 +9,7 @@ function Feature2() {
   return (
     <section className="section ">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]">
+        <div className="flex flex-col items-center lg:flex-row lg:items-center lg:gap-x-[30px]">
           {/* image */}
           <div className="flex-1" data-aos="fade-right" data-aos-offset="500">
             <img src={image} alt="" />
