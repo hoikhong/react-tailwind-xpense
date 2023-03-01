@@ -7,7 +7,7 @@ function Feature1() {
   const { feature1 } = features;
   const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature1;
   return (
-    <section className="section ">
+    <section className="section">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]">
           {/* text */}
